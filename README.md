@@ -48,7 +48,7 @@
 <p dir="rtl">ساده‌ترین راه برای نصب این پکیج استفاده از Composer است:</p>  
 
 ```sh  
-composer require alida-ir/ecommerce-laravel-cms  
+    composer require alida-ir/ecommerce-laravel-cms  
 ```  
 <p dir="rtl" id="install-fa">
 <a href="https://getcomposer.org/">Composer</a> سامانه‌ای برای مدیریت بسته‌های زبان PHP است که به شما امکان مدیریت (نصب / به روزرسانی) پکیج‌های نوشته شده در این زبان را می‌دهد. اگر با کامپوزر آشنایی ندارید، می‌توانید از طریق سایت <a href="https://getcomposer.org/">getcomposer.org</a> مستندات آن را مطالعه و اقدام به بارگیری و نصب آن کنید.
@@ -58,7 +58,16 @@ composer require alida-ir/ecommerce-laravel-cms
 </p>
 
 ```sh  
-git clone https://github.com/alida-ir/ecommerce-laravel-cms.git  
+    git clone https://github.com/alida-ir/ecommerce-laravel-cms.git  
+``` 
+
+<p dir="rtl">
+    سپس نیازمندی های این پروژه را با دستور زیر نصب کنید :
+</p>
+
+
+```sh  
+    composer install  
 ``` 
 
 <p dir="rtl">
@@ -66,7 +75,7 @@ git clone https://github.com/alida-ir/ecommerce-laravel-cms.git
 </p>
 
 ```sh  
-php artisan migrate  
+    php artisan migrate  
 ``` 
 
 <p dir="rtl">
@@ -75,19 +84,27 @@ php artisan migrate
 
 
 ```sh  
-php artisan db:seed  
+    php artisan db:seed  
 ``` 
 
 <h2 dir="rtl" id="usage-fa">استفاده</h2>
 <p dir="rtl">با باز کردن آدرس سایت خود در مرورگر میتوانید این فروشگاه آنلاین را مشاهده کنید</p>  
-<p dir="rtl">برای مشاهده بخش مدیریت وبسایت ابتدا با اطلاعات زیر اقدام به ورود به وبسایت با لینک زیر کنید ؛ بعد از ورود مستقیم به پنل کاربری هدایت میشوید</p>  
+<p dir="rtl">اگر در local هستید ؛ با دستور زیر میتوانید پروژه را در مرورگر ببینید</p>
 
-number :
+```sh  
+   php artisan serve
+``` 
+
+<p dir="rtl">برای مشاهده بخش مدیریت وبسایت ابتدا با اطلاعات زیر اقدام به ورود به وبسایت با لینک زیر کنید ؛ بعد از ورود مستقیم به پنل کاربری هدایت میشوید</p>  
+<br>
+<p dir="rtl">شماره موبایل :</p>
+
 ```sh  
    091212345678
 ``` 
 
-password :
+<p dir="rtl">رمز عبور :</p>
+
 ```sh  
    12345678
 ``` 
