@@ -1,0 +1,156 @@
+:root{
+    --main-color : #EEEEEE;
+    --text-color : #9294a7;
+    --middle-color : #141E61;
+    --end-color : #0F044C;
+}
+html , body {
+    font-family: Vazir FD !important;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+    vertical-align: baseline;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.container{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.container > .row > .box {
+    border: 1px solid rgba(20 , 30 , 97 , .2);
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.container > .row > .box > .box_logo {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.container > .row > .box > .box_logo img {
+    width: 60%;
+    height: 100%;
+    object-fit: contain
+}
+
+.container > .row > .box > .box_details > p.newCaption{
+    max-width: 350px;
+}
+.container > .row > .box > .box_details > p:first-child {
+    color: black;
+    font-size: 20px;
+}
+
+.container > .row > .box > .box_details > p:not(:first-child) {
+    font-size: 14px;
+}
+.container > .row > .box > .box_back {
+    display: none;
+}
+.container > .row > .box > .box_back a {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+.container > .row > .box > .box_back img {
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+
+.container > .row > .box > .box_login > form  {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.container > .row > .box > .box_login > form > .box_danger {
+    font-size: 13px;
+    padding: 2px 0;
+    color: var(--middle-color);
+}
+
+
+.container > .row > .box > .box_login > form input:focus {
+    outline: 0;
+    color: var(--end-color);
+    font-family: Vazir FD;
+}
+
+.container > .row > .box > .box_login > form > input {
+    height: 48px;
+    /*width: 335px;*/
+    border: 1px solid var(--middle-color);
+    border-radius: 5px;
+    padding-right: 15px;
+    color: var(--middle-color);
+    font-family: Vazir FD;
+    font-size: 16px;
+    transition: all ease 500ms;
+}
+
+.container > .row > .box > .box_login .useCode {
+    margin: 10px 0;
+
+}
+.container > .row > .box > .box_login .useCode ,
+.container > .row > .box > .box_login .forgetPass {
+    font-size: 15px;
+    color: var(--middle-color);
+    cursor: pointer;
+}
+
+.container > .row > .box > .box_login > form > button {
+    background: var(--middle-color);
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin: 20px 0;
+    padding: 20px 0;
+    font-family: "Vazir FD";
+}
+
+#livewire-error {
+    padding: unset !important;
+}

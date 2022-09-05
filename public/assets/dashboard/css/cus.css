@@ -1,0 +1,20 @@
+.select2-container.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin: 5px !important;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.select2-container.select2-container--default .select2-selection--multiple {
+    height: auto;
+}
+
+.select2-container.select2-container--default .select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove {
+    border: none;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    font-family: Vazir;
+}

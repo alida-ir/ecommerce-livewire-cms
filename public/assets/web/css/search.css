@@ -1,0 +1,130 @@
+.main__search > .main__search--type{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.main__search > .main__search--type > h1 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.main__search > .main__search--type > span {
+    color: var(--middle-color);
+    font-size: 20px;
+}
+
+.main__search > .main__search--result h2 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.main__search > .main__search--result .main__search--result__child{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post
+{
+    background: #fff;
+    width: 265px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item {
+
+}
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .content img{
+    width: 250px;
+    display: inline-block;
+}
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .bottom {
+    padding: 0 20px;
+    position: relative;
+}
+
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .bottom > h4{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .bottom .price.discount {
+    color: var(--middle-color);
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .bottom .price {
+    color: var(--middle-color);
+}
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .bottom .price.new {
+    color: var(--middle-color);
+    margin: 0;
+}
+
+.main__search > .main__search--result.main__search--result__child > .main__search--resul__post > .item > .bottom .discount_count {
+    position: absolute;
+    right: 20px;
+    top: 52px;
+    font-size: 13px;
+    color: #fff;
+    background: var(--middle-color);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .bottom > .add_to_cart  {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.main__search > .main__search--result .main__search--result__child > .main__search--resul__post > .item > .bottom > .add_to_cart  > a {
+    background: var(--middle-color);
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid var(--middle-color);
+    margin: 20px 0;
+}
+
+.pagination-div {
+    margin-bottom: 15px;
+}
+
+.mb-2 {
+    margin-bottom: 25px !important;
+}

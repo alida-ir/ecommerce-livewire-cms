@@ -1,0 +1,99 @@
+
+.main__allPosts{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.main__allPosts > .main__allPosts--posts
+{
+    background: #fff;
+    width: 265px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+
+.main__allPosts > .main__allPosts--posts > .item {
+
+}
+
+.main__allPosts > .main__allPosts--posts > .item > .content img{
+    width: 250px;
+    display: inline-block;
+}
+
+.main__allPosts > .main__allPosts--posts > .item > .bottom {
+    padding: 0 20px;
+    position: relative;
+}
+
+
+.main__allPosts > .main__allPosts--posts > .item > .bottom > h4{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+.main__allPosts > .main__allPosts--posts > .item > .bottom .price.discount {
+    color: var(--middle-color);
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.main__allPosts > .main__allPosts--posts > .item > .bottom .price {
+    color: var(--middle-color);
+}
+
+.main__allPosts > .main__allPosts--posts > .item > .bottom .price.new {
+    color: var(--middle-color);
+    margin: 0;
+}
+
+.main__allPosts > .main__allPosts--posts > .item > .bottom .discount_count {
+    position: absolute;
+    right: 20px;
+    top: 52px;
+    font-size: 13px;
+    color: #fff;
+    background: var(--middle-color);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.main__allPosts > .main__allPosts--posts > .item > .bottom > .add_to_cart  {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.main__allPosts > .main__allPosts--posts > .item > .bottom > .add_to_cart  > a {
+    background: var(--middle-color);
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid var(--middle-color);
+    margin: 20px 0;
+}
+
+.pagination-div {
+    margin-bottom: 15px;
+}
