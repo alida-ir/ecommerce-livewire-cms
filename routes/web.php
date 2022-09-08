@@ -16,7 +16,7 @@ Route::get('checkout/cart' , Livewire\Web\Cart\Index::class)->name('checkout.ind
 Route::get('categories' , Livewire\Web\Categories\Index::class)->name('categories.index');
 Route::get('categories/{slug}' , Livewire\Web\Categories\Item::class)->name('categories.item');
 
-Route::get('/pay/callback' , [PaymentController::class , 'callback'])->middleware('auth:web');
+Route::get('/pay/callback' , [PaymentController::class , 'callback'])->middleware('auth:web')->name('pay.callback');
 Route::get('/pay/fail' , [PaymentController::class , 'fail'])->name('pay.fail')->middleware('auth:web');
 
 

@@ -16,7 +16,7 @@ class PaymentController extends Controller
 
     public static function createPay($api , $amount , $mobile , $factorNumber ,$description)
     {
-        $redirect = env('PAYMENT_CALLBACK_URL');
+        $redirect = route('pay.callback');
         $result = PaymentController::send($api, $amount, $redirect, $mobile, $factorNumber, $description);
         if($result->status) {
             $go = "https://pay.ir/pg/$result->token";

@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->  
 <br />  
 <p align="center">  
-  <a href="httpshttps://github.com/alida-ir/ecommerce-laravel-cms">  
+  <a href="https://github.com/alida-ir/ecommerce-laravel-cms">  
     <img src="logo.png" alt="Logo" height="200" alt="Ecommerce Laravel CMS">  
   </a>  
 
@@ -45,16 +45,9 @@
 
 
 <h2 dir="rtl" id="install-fa">نصب</h2>
-<p dir="rtl">ساده‌ترین راه برای نصب این پکیج استفاده از Composer است:</p>  
 
-```sh  
-    composer require alida-ir/ecommerce-laravel-cms  
-```  
-<p dir="rtl" id="install-fa">
-<a href="https://getcomposer.org/">Composer</a> سامانه‌ای برای مدیریت بسته‌های زبان PHP است که به شما امکان مدیریت (نصب / به روزرسانی) پکیج‌های نوشته شده در این زبان را می‌دهد. اگر با کامپوزر آشنایی ندارید، می‌توانید از طریق سایت <a href="https://getcomposer.org/">getcomposer.org</a> مستندات آن را مطالعه و اقدام به بارگیری و نصب آن کنید.
-</p>
 <p dir="rtl">
-در صورت عدم تمایل به استفاده از کامپوزر، می‌توانید این CMS را از <a href="https://github.com/alida-ir/Ecommerce-Laravel-CMS/archive/master.zip">اینجا</a> دانلود کرده و محتویات فایل زیپ را استخراج کنید.و یا با دستور زیر در سیستم خود clone کنید
+    برای دریافت پروژه میتوانید از این <a href="https://github.com/alida-ir/Ecommerce-Laravel-CMS/archive/master.zip">لینک</a> برای دانلود استفاده کنید یا در صورتی که گیت روی سیستم شما نصب باشد میتوانید از درستور زیر برای دریافت پروژه استفاده کنید
 </p>
 
 ```sh  
@@ -69,6 +62,15 @@
 ```sh  
     composer install  
 ``` 
+
+<p dir="rtl">
+    سپس با دستور زیر یک کلید برای اپلیکیشن خود ایجاد کنید
+</p>
+
+```sh  
+    php artisan key:generate  
+``` 
+
 
 <p dir="rtl">
     سپس فایل .env.example را به .evn تغییر نام دهید ؛ و این فایل را ویرایش کنید و اطلاعات مربوطه را ذخیره کنید ؛ سپس با دستورات زیر اقدام به ایجاد دیتابیس و نوشتن اطلاعات اولیه کنید
@@ -89,13 +91,16 @@
 
 <h2 dir="rtl" id="usage-fa">استفاده</h2>
 <p dir="rtl">با باز کردن آدرس سایت خود در مرورگر میتوانید این فروشگاه آنلاین را مشاهده کنید</p>  
-<p dir="rtl">اگر در local هستید ؛ با دستور زیر میتوانید پروژه را در مرورگر ببینید</p>
+<p dir="rtl">اگر در local هستید ؛ با دستور زیر میتوانید پروژه را در مرورگر ببینید ( در این صورت قبل از ایجاد جدول های مورد نیاز ؛ آدرس وبسایت در فایل .env را تغییر دهید ) </p>
 
 ```sh  
    php artisan serve
 ``` 
 
 <p dir="rtl">برای مشاهده بخش مدیریت وبسایت ابتدا با اطلاعات زیر اقدام به ورود به وبسایت با لینک زیر کنید ؛ بعد از ورود مستقیم به پنل کاربری هدایت میشوید</p>  
+<br>
+
+[Login Address](http://localhost:8000/login)
 <br>
 <p dir="rtl">شماره موبایل :</p>
 
@@ -108,7 +113,5 @@
 ```sh  
    12345678
 ``` 
-
-[Login Address](https://localhost:8000/login)
 
 <p dir="rtl">بعد از ورود به پنل کاربری ؛ از قسمت ویرایش پروفایل اقدام به تعویض رمز عبور کنید </p>  
