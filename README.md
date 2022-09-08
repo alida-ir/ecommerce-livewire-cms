@@ -2,16 +2,17 @@
 <!-- PROJECT LOGO -->  
 <br />  
 <p align="center">  
-  <a href="https://github.com/alida-ir/ecommerce-laravel-cms">  
-    <img src="logo.png" alt="Logo" height="200" alt="Ecommerce Laravel CMS">  
+  <a href="https://github.com/alida-ir/ecommerce-livewire
+-cms">  
+    <img src="logo.png" alt="Logo" height="200" alt="Ecommerce Livewire CMS">  
   </a>  
 
-<h3 align="center">Ecommerce Laravel CMS</h3>
+<h3 align="center">Ecommerce Livewire CMS</h3>
 
   <p align="center">  
     یک فروشگاه نسبتا کامل و آماده برای استفاده شما
     <br />  
-    <a href="https://alida.ir/blog/ecommerce-laravel-cms"><strong>توضیحات کامل »</strong></a>  
+    <a href="https://alida.ir/blog/ecommerce-livewire-cms"><strong>توضیحات کامل »</strong></a>  
     <br />  
     <br />  
     <a href="https://t.me/alida_ir/43">یاری در توسعه این پروژه</a>  
@@ -20,16 +21,16 @@
     |
     <a href="https://instagram.com/alida_ir">اینستاگرام من</a>  
     |
-    <a href="https://github.com/alida-ir/ecommerce-laravel-cms/issues">گزارش مشکل</a>  
+    <a href="https://github.com/alida-ir/ecommerce-livewire-cms/issues">گزارش مشکل</a>  
   </p>  
 </p>  
 
 <br>  
 <p align="center">
-	<a href="https://github.com/alida-ir/ecommerce-laravel-cms/graphs/contributors"><img src="https://img.shields.io/github/contributors/alida-ir/ecommerce-laravel-cms.svg" alt="contributors"></a>
-	<a href="https://github.com/alida-ir/ecommerce-laravel-cms/network/members"><img src="https://img.shields.io/github/forks/alida-ir/ecommerce-laravel-cms.svg" alt="forks"></a>
-	<a href="https://github.com/alida-ir/ecommerce-laravel-cms/stargazers"><img src="https://img.shields.io/github/stars/alida-ir/ecommerce-laravel-cms.svg" alt="stars"></a>
-	<a href="https://github.com/alida-ir/ecommerce-laravel-cms/issues"><img src="https://img.shields.io/github/issues/alida-ir/ecommerce-laravel-cms.svg" alt="issues"></a>
+	<a href="https://github.com/alida-ir/ecommerce-livewire-cms/graphs/contributors"><img src="https://img.shields.io/github/contributors/alida-ir/ecommerce-livewire-cms.svg" alt="contributors"></a>
+	<a href="https://github.com/alida-ir/ecommerce-livewire-cms/network/members"><img src="https://img.shields.io/github/forks/alida-ir/ecommerce-livewire-cms.svg" alt="forks"></a>
+	<a href="https://github.com/alida-ir/ecommerce-livewire-cms/stargazers"><img src="https://img.shields.io/github/stars/alida-ir/ecommerce-livewire-cms.svg" alt="stars"></a>
+	<a href="https://github.com/alida-ir/ecommerce-livewire-cms/issues"><img src="https://img.shields.io/github/issues/alida-ir/ecommerce-livewire-cms.svg" alt="issues"></a>
 	<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license"></a>
 </p>
 
@@ -47,11 +48,11 @@
 <h2 dir="rtl" id="install-fa">نصب</h2>
 
 <p dir="rtl">
-    برای دریافت پروژه میتوانید از این <a href="https://github.com/alida-ir/Ecommerce-Laravel-CMS/archive/master.zip">لینک</a> برای دانلود استفاده کنید یا در صورتی که گیت روی سیستم شما نصب باشد میتوانید از درستور زیر برای دریافت پروژه استفاده کنید
+    برای دریافت پروژه میتوانید از این <a href="https://github.com/alida-ir/ecommerce-livewire-cms/archive/master.zip">لینک</a> استفاده کنید یا در صورتی که گیت روی سیستم شما نصب باشد میتوانید از دستور زیر برای دریافت پروژه استفاده کنید
 </p>
 
 ```sh  
-    git clone https://github.com/alida-ir/ecommerce-laravel-cms.git  
+    git clone https://github.com/alida-ir/ecommerce-livewire-cms.git  
 ``` 
 
 <p dir="rtl">
