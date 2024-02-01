@@ -33,7 +33,7 @@
                     </div>
                     <div class="intro-y col-span-6 md:col-span-6 lg:col-span-6">
                         <label>لینک بنر جدید را وارد کنید</label>
-                        <input type="text" wire:model="oneBannerNewLink" class="input border mr-2" id="vertical-remember-me">
+                        <input type="text" wire:model.lazy="oneBannerNewLink" class="input border mr-2" id="vertical-remember-me">
                         @error('oneBannerNewLink')
                         <div style="font-size: 12px" class="mt-3 rounded-md flex items-center px-5 py-4 mb-2 bg-theme-6 text-white">
                             <i data-feather="alert-octagon" class="w-6 h-6 ml-2"></i> {{ $message }} </div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="intro-y col-span-6 md:col-span-6 lg:col-span-6">
                         <label>لینک بنر جدید را وارد کنید</label>
-                        <input type="text" wire:model="twoBannerNewLink" class="input border mr-2" id="vertical-remember-me">
+                        <input type="text" wire:model.lazy="twoBannerNewLink" class="input border mr-2" id="vertical-remember-me">
                         @error('twoBannerNewLink')
                         <div style="font-size: 12px" class="mt-3 rounded-md flex items-center px-5 py-4 mb-2 bg-theme-6 text-white">
                             <i data-feather="alert-octagon" class="w-6 h-6 ml-2"></i> {{ $message }} </div>
