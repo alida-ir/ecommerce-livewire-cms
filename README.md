@@ -48,6 +48,9 @@
 <h2 dir="rtl" id="install-fa">نصب</h2>
 
 <p dir="rtl">
+    در صورتی که با لاراول آشنا نیستید میتوانید در این <a href="https://alida.ir/blog/how-to-install-ecommerce">صفحه</a> از آموزش تصویری نصب و راه اندازی بهره مند شوید 
+</p>
+<p dir="rtl">
     برای دریافت پروژه میتوانید از این <a href="https://github.com/alida-ir/ecommerce-livewire-cms/archive/master.zip">لینک</a> استفاده کنید یا در صورتی که گیت روی سیستم شما نصب باشد میتوانید از دستور زیر برای دریافت پروژه استفاده کنید
 </p>
 
@@ -56,12 +59,15 @@
 ``` 
 
 <p dir="rtl">
-    سپس نیازمندی های این پروژه را با دستور زیر نصب کنید :
+    سپس نیازمندی های این پروژه را با دستور زیر نصب کنید : ( صورتی که با اخطار مواجه شدید از دستور دوم استفاده نمایید )
 </p>
 
+```sh  
+    composer update  
+``` 
 
 ```sh  
-    composer install  
+    composer update --ignore-platform-reqs
 ``` 
 
 <p dir="rtl">
