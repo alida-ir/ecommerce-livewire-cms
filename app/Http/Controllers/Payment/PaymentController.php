@@ -28,7 +28,7 @@ class PaymentController extends Controller
 
     public static function CustomCreatePay($api , $amount , $mobile , $factorNumber ,$description)
     {
-        $redirect = env('PAYMENT_CALLBACK_URL');
+        $redirect = env('APP_URL') . "/pay/callback";
         $result = PaymentController::send($api, $amount, $redirect, $mobile, $factorNumber, $description);
         if($result->status) {
             return $result->token;
