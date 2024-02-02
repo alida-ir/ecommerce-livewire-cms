@@ -30,11 +30,11 @@ class OrderPolicy
      */
     public function view(User $user, Order $order)
     {
-        return $user->role->hasPermissions("show-all-order") || $user->role->hasPermissions("show-self-order") && $user->id === $order->user_id;
+        return $user->role->hasPermissions("show-all-order") || $user->role->hasPermissions("show-self-order") && $user->id === $order->user->id;
     }
     public function Onlyview(User $user, Order $order)
     {
-        return $user->role->hasPermissions("show-order") || $user->id === $order->user_id;
+        return $user->role->hasPermissions("show-order") || $user->id === $order->user->id;
     }
 
 
